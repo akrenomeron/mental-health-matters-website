@@ -1,0 +1,220 @@
+* { /* Reset the space of the webpage */
+    margin: 0px;
+    padding: 0px;
+ }
+ 
+ body {
+  background-color: #A5B77B;
+ }
+ 
+ nav{
+   width: 100%;
+   height: 0.1px;
+   background-color: none;
+ }
+ 
+ nav h1{
+   font-family: 'Helvetica Neue', sans-serif;
+   font-size: 27px; 
+   font-weight: bold; 
+   letter-spacing: -1px;
+   line-height: 1; 
+   float: left;
+   padding-left: 2em;
+   color:#2A2829;
+   padding-top: 1.5em;
+   padding-bottom: 0em;
+ }
+ 
+ .index{
+   list-style-type: none;
+   /*background-color:#A5B77B ;*/
+   overflow: hidden;
+   margin-top:-0.1%;
+   text-align: center;
+   padding-right: 40px;
+   position: relative;
+   z-index: 1000;
+ 
+ }
+ 
+ .indexli{
+   display: inline;
+   float: right;
+   padding-top: 1.5em;
+   padding-bottom: 0.3em;
+ }
+ .indexli a{
+   text-decoration: none;
+   font-family: 'Open Sans', sans-serif; 
+   font-size: 15px; 
+   font-weight: 300; 
+   line-height: 32px; 
+   margin: 0 0 72px; 
+   text-align: center;
+   padding: 0.6em;
+   color: #2A2829;
+    text-shadow: 1px 1px #8c9b69;
+ }
+ 
+ li a:hover{
+   color:#403f40;
+   border-radius: 16px;
+   transition: 0.4s;
+ }
+ 
+ .section1{
+   background-image: url("assets/girlcomfortinggirl.jpg");
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: relative;
+   max-width: 100%;
+   margin-top: 15px;
+ }
+ 
+ #destigContent{
+   max-width: 100%;
+  background: rgba(41, 42, 40, 0.9); 
+   height: 600px;
+ 
+  
+ }
+ 
+ #destigmatize{
+   width: 500px;
+ 
+   margin-top: 130px;
+   padding-top: 90px;
+   text-align: center;
+   font-family: 'Open Sans', sans-serif;
+   color: #EF7C3C;
+   font-size:45px;
+   text-shadow:1px 1px #413e40;
+ }
+ 
+ #destigDes{
+   width: 700px;
+ 
+   margin-top: 40px;
+   text-align: center;
+   margin-bottom: 120px;
+   font-family: 'Helvetica Neue', sans-serif; 
+   font-size: 20px; line-height: 24px;
+   font-weight: 200;
+   color: #A5B77B;
+ }
+ 
+ #destigmatize2{
+   width: 900px;
+   margin-left: 90px;
+   margin-top: 20px;
+   padding-top: 90px;
+   text-align: center;
+   font-family: 'Helvetica Neue', sans-serif; 
+   font-weight: bold; 
+   font-size: 45px;
+   letter-spacing: -1px; 
+   line-height: 1;
+   color: #EF7C3C;
+   text-shadow: 1px 1px #8c9b69;
+ }
+ 
+ .disorderTitle{
+    width: 500px;
+   margin-left: 90px;
+   margin-top: 10px;
+   padding-top: 90px;
+   text-align: right;
+   color: #EF7C3C;
+   font-family: 'Open Sans', sans-serif;
+   text-shadow: 1px 1px #8c9b69;
+   font-size:30px;
+   float: right;
+   margin-right: 50px;
+ }
+ 
+ .subTitle{
+   width: 500px;
+   margin-top: 20px;
+   margin-left:780px;
+   margin-right: 55px;
+   text-align: right;
+   margin-bottom: 40px;
+   font-family: 'Open Sans', sans-serif;
+   font-size: 20px; line-height: 24px;
+   font-weight: 200;
+   color:#2A2829;
+   float: right;
+ }
+ 
+ .subDes{
+   text-align: right;
+   color:#2A2829;
+   font-family: 'Helvetica Neue', sans-serif; 
+   font-size: 18px; 
+   line-height: 24px;
+   font-weight: 200;
+   margin-top: 0px;
+   margin-bottom: 38px;
+   width: 535px;
+   float: right;
+   margin-right: 50px;
+   margin-left: 20px;
+ }
+ 
+ .subLink{
+   padding-top: 15px;
+   padding-bottom: 15px;
+   margin-left: 100px; 
+   text-decoration: none;
+   background-color: #EF7C3C;
+   color:#2A2829;
+   border-radius: 10px;
+   padding-left: 15px;
+   padding-right: 15px;
+   font-family: 'Open Sans', sans-serif;
+   font-size: 14px; line-height: 24px;
+   float: right;
+   margin-top: 30px;
+   margin-right: 45px;
+ }
+ 
+ .subLink:hover{
+     background-color: #d6733d;
+   color:#484747;
+   transition: 0.2s;
+   font-size: 15.3px;
+ }
+ 
+ .destigCon{
+   height: 400px;
+   display:flex;
+   margin-right: 250px;
+   margin-bottom: 160px;
+ }
+ 
+ .bigNum{
+  width: 500px;
+   text-align: left;
+   float: right;
+   font-family: 'Open Sans', sans-serif;
+   color: #2A2829;
+   text-shadow: 1px 1px #8c9b69;
+   font-size: 275px;
+   margin-top: 80px;
+ }
+ 
+ .block1{
+   width: 40%;
+   float: left;
+   margin-left: 100px;
+ }
+ 
+ .block2{
+   width: 60%;
+   float: right;
+ }
+ 
+ .facts{margin-bottom: 70px;}
